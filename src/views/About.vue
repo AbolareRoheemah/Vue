@@ -1,0 +1,25 @@
+<template>
+  <div class="about">
+    <nav class="navbar navbar-light navbar-expand-sm bg-success">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <router-link to="/"><a class="navbar-brand mr-auto">Brand</a></router-link>
+        <div id="Navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item text-white"><router-link to="/" class="nav-link">Home</router-link></li> 
+          <li class="nav-item"><router-link to="/about" class="nav-link">About</router-link></li> 
+          <li class="nav-item"><router-link to="/samplePage" class="nav-link">Sample</router-link></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="p-5 mb-5">This is an about page</h1>
+    <img alt="Vue logo" src="@/assets/logo.png">
+    <h1><span class="badge badge-danger rounded-pill badge-lg mt-5">HOT</span></h1>
+    <router-link to="/"><button class= "btn-success p-3 mt-5 rounded-pill">Click here to see the home page</button></router-link>
+  </div>
+</template>
+
+
